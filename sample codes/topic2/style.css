@@ -1,0 +1,12 @@
+/* To show a mockup CSS of how an individual table's background colour can be set using an id, or how to set the background colour using a class. For table.html */
+#table01 {
+    background-color: blue;
+}
+
+.specialTable {
+    background-color: red;
+}
+
+.btn-primary {
+    background-color: orange;
+}

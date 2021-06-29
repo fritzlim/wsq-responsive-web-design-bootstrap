@@ -13,9 +13,14 @@
     <div class="container">
         <h2>Alerts</h2>
         <p>Alerts are created with the .alert class, followed by a contextual color classes:</p>
+
+        <!-- To simulate how an alert can appear programmatically, either by button click or e.g. after gettting data from a server. -->
+        <button type="button" class="btn btn-primary" onclick="alertDemo()">Show the alert</button>
+        <div id="alertDemo">
+        </div>
+        
         <div class="alert alert-success">
           <strong>Success!</strong> This alert box could indicate a successful or positive action.
-        </div>
         <div class="alert alert-info">
           <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
         </div>
@@ -41,4 +46,5 @@
 
 
 </body>
+ <script src="script.js"></script> 
 </html>
