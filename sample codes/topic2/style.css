@@ -1,4 +1,4 @@
-/* To show a mockup CSS of how an individual table's background colour can be set using an id, or how to set the background colour using a class. For table.html */
+/* To show how an individual table's background colour can be set using an id, or how to set the background colour using a class, and how to override/change the background colour of the btn-primary class. For table.html and buttons.html */
 #table01 {
     background-color: blue;
 }
